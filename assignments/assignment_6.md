@@ -1,4 +1,4 @@
-# Assignment 8 - Reciprocal method
+# Assignment 6 - Reciprocal method
 
 ## First
 
