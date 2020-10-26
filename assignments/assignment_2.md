@@ -1,34 +1,34 @@
-# Assignment 2
+# Assignment 2: Strings
+
+
+In this assignment you will get familiar with commonly used functions for strings.
 
 # Tutorials to review
 
 Make sure you have reviewed the following topics before starting to work on this assignment. 
 
-Functions: [https://www.py4e.com/lessons/functions](https://www.py4e.com/lessons/functions)
-
-Loops: [https://www.py4e.com/lessons/loops](https://www.py4e.com/lessons/loops)
+Strings: [https://www.py4e.com/lessons/strings](https://www.py4e.com/lessons/strings)
 
 
 ## Required
 
-Write a Python program that asks for user input (ask the user to enter a number), and write a program that finds all the factors of that number. 
+In this assignment you are asked to illustrate the workings of the following built-in functions that can be applied to strings:
 
-Your program needs to reject the user's input if the user does not enter a number.
+```python
+str.capitalize()
+str.center(width[, fillchar])
+str.endswith(suffix[, start[, end]])
+str.find(sub[, start[, end]])
+str.lstrip([chars])
+str.replace(old, new[, count])
+str.lower()
+str.rstrip([chars])
+str.strip([chars])
+str.upper()
+```
 
-See [https://www.w3schools.com/python/ref_func_input.asp](https://www.w3schools.com/python/ref_func_input.asp) for an example to get user input.
-
-See [https://www.mathsisfun.com/numbers/factors-all-tool.html](https://www.mathsisfun.com/numbers/factors-all-tool.html) for a way to find the factors of a number. The main point here is that you need to have a loop from 1 to the number entered. 
-
-> Note: data entered may be of type 'string', and may need to be converted to 'int'. 
-
-> You need to think about how can you test if some division gives a round number or not.
-
+Assign a value to a string variable (e.g. `myText = " I eat too many apples.  "`). Then, apply each of the above functions to the string and print the output. 
 
 Please submit your python code along with the output of the program.
 
-# Use web resources
-
-There are lots of resources on the web to help getting Python to do what you want. Use Google to search for queries like 'Python input number', or 'Python test for equality'.
-
-
-
+> Note: As some of these functions have parameters that you can set/modify to obtain the desired output, pay careful attention to them while learning about the working of the function.  
